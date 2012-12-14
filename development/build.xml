@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="Yarhar" default="all">
+<project name="spritecrop" default="all">
 	
 	
     <description>
-Build The Yarhar map editor.  This results in the jar file yarhar.jar.
     </description>
     	
     
@@ -14,7 +13,7 @@ Build The Yarhar map editor.  This results in the jar file yarhar.jar.
     		<format property="YEAR" pattern="yyyy"/>
     	</tstamp>
    		<echo level="info">
-Yarhar (fiddle dee dee) map editor
+spritecrop - sprite cropping tool
 Copyright (c) ${YEAR} by Stephen Lindberg (Neonair Games).
 All rights reserved.
 		</echo>
@@ -46,9 +45,9 @@ bin, lib, and other folders.</echo>
 		<property name="build.bin"  	value="${build.base}/bin"/>
         <property name="build.lib"  	value="${build.base}/lib"/>
 		<property name="build.resources" value="${build.base}/resources"/>
-		<property name="build.jar"		value="yarhar.jar"/>
+		<property name="build.jar"		value="spritecrop.jar"/>
 		<property name="build.latest"	value="${build.base}/latest"/>
-        <property name="build.main"		value="yarhar.YarharMain"/>
+        <property name="build.main"		value="spritecrop.SpriteCropMain"/>
 		<echo level="info">Using Java at ${env.JAVA_HOME}.</echo>
 		<path id="build.classpath">
 			<pathelement path="${java.class.path}"/>
@@ -60,7 +59,7 @@ bin, lib, and other folders.</echo>
 		<property name="build.classpath" refid="build.classpath"/>
 		<echo level="info">  Build ....... ${DSTAMP}${TSTAMP}</echo>
 		<echo level="verbose">Using CLASSPATH=${build.classpath}.</echo>
-		<echo level="info">Starting build of Yarhar on ${TODAY} at ${TSTAMP}.</echo>
+		<echo level="info">Starting build of spritecrop on ${TODAY} at ${TSTAMP}.</echo>
     </target>
 	
 	

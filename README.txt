@@ -3,7 +3,7 @@ README
 
 /*======================================================================
  * 
- * SpriteCrop - A helpful tool for getting metrics for cropping sprites.
+ * SpriteCrop v1.0 - A helpful tool for getting metrics for cropping sprites.
  * 
  * Copyright (c) 2012 by Stephen Lindberg (sllindberg21@students.tntech.edu)
  * All rights reserved.
@@ -49,13 +49,26 @@ This will create the SpriteCrop.jar in the "latest" directory and it will
 also create the API docs for SpriteCrop in the "docs" directory.
 
 
+Mouse gestures:
+-------------------
+Left-dragging forms a crop rectangle on the image.
+
+Right-dragging sets the position of the bottom-right 
+corner of the cropping rectangle.
+
+Left-clicking sets the position of the top-left 
+corner of the cropping rectangle.
+
+Right-clicking sets the position of the bottom-right 
+corner of the cropping rectangle.
+
+
 Frequently Asked Questions:
 ----------------
 
 Q : Is it done yet? 
 
-    No, but this is intended to be a short project. So it shouldn't take 
-    long for it to be completed.
+    Yes it is! Go crop some sprites, you ole' sprite cropper, you! :D
 
 
 
